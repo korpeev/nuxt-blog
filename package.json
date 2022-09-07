@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.9"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@nuxtjs/tailwindcss": "5.0.0-4",
+    "@pinia/nuxt": "^0.4.1",
+    "@vee-validate/rules": "^4.6.7",
+    "@vue/apollo-composable": "^4.0.0-alpha.19",
+    "graphql": "^16.6.0",
+    "nuxt-material-design-icons-iconfont": "^1.0.2",
+    "pinia": "^2.0.21",
+    "prettier": "^2.7.1",
+    "sass": "^1.54.8",
+    "scss": "^0.2.4",
+    "vee-validate": "^4.6.7",
+    "vue-apollo": "^3.1.0",
+    "yup": "^0.32.11"
+  }
+}
